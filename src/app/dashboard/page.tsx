@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import DashboardCarousel from '@/components/DashboardCarousel'
 
 interface Booking {
   id: string
@@ -168,6 +169,12 @@ export default function UserDashboard() {
                 </svg>
                 Kontakt
               </Link>
+            </div>
+
+            {/* Museum Dashboard Carousel */}
+            <div className="bg-white rounded-xl shadow-lg p-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4">Schnellzugriff</h2>
+              <DashboardCarousel />
             </div>
           </div>
 

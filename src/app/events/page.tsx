@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
-import MuseumImageCarousel from '@/components/MuseumImageCarousel'
+import EventCarousel from '@/components/EventCarousel'
 
 export default function EventsPage() {
   const { user } = useAuth()
@@ -96,14 +96,15 @@ export default function EventsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-800 to-indigo-700 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+      {/* Hero Carousel Section */}
+      <section className="relative">
+        <EventCarousel />
+        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+          <div className="text-center text-white px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
               Veranstaltungen & Führungen
             </h1>
-            <p className="text-xl max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md">
               Erleben Sie unser Museum bei einer Führung, Workshop oder einem spannenden Vortrag
             </p>
           </div>

@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
-import MuseumImageCarousel from '@/components/MuseumImageCarousel'
+import ExhibitionCarousel from '@/components/ExhibitionCarousel'
 
 export default function ExhibitionsPage() {
   const { user } = useAuth()
@@ -117,9 +117,9 @@ export default function ExhibitionsPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Carousel Section */}
       <section className="relative">
-        <MuseumImageCarousel />
+        <ExhibitionCarousel />
         {/* Overlay content */}
-        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
               Unsere Ausstellungen
