@@ -27,7 +27,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
       {/* Hero Section with Carousel */}
       <section className="relative">
-        <MuseumImageCarousel className="h-[600px] md:h-[700px]" />
+        <MuseumImageCarousel />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">

@@ -110,8 +110,8 @@ export default function BookingCarousel({ className = "" }: BookingCarouselProps
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4 bg-white/80 hover:bg-white border-0 text-gray-800 w-10 h-10" />
-        <CarouselNext className="right-4 bg-white/80 hover:bg-white border-0 text-gray-800 w-10 h-10" />
+        <CarouselPrevious className="left-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-10 h-10 z-10 shadow-lg" />
+        <CarouselNext className="right-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-10 h-10 z-10 shadow-lg" />
       </Carousel>
     </div>
   )
