@@ -128,8 +128,8 @@ export default function EventCarousel({ className = "" }: EventCarouselProps) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4 bg-white/80 hover:bg-white border-0 text-gray-800 w-12 h-12" />
-        <CarouselNext className="right-4 bg-white/80 hover:bg-white border-0 text-gray-800 w-12 h-12" />
+        <CarouselPrevious className="left-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-12 h-12 z-10 shadow-lg" />
+        <CarouselNext className="right-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-12 h-12 z-10 shadow-lg" />
       </Carousel>
     </div>
   )

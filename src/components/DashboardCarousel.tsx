@@ -108,8 +108,8 @@ export default function DashboardCarousel({ className = "" }: DashboardCarouselP
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-2 bg-white/60 hover:bg-white/80 border-0 text-gray-800 w-8 h-8" />
-        <CarouselNext className="right-2 bg-white/60 hover:bg-white/80 border-0 text-gray-800 w-8 h-8" />
+        <CarouselPrevious className="left-2 bg-white/80 hover:bg-white/90 border-0 text-gray-800 w-8 h-8 z-10 shadow-md" />
+        <CarouselNext className="right-2 bg-white/80 hover:bg-white/90 border-0 text-gray-800 w-8 h-8 z-10 shadow-md" />
       </Carousel>
     </div>
   )
