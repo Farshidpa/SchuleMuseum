@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useAuth } from '@/contexts/AuthContext'
+import MuseumImageCarousel from '@/components/MuseumImageCarousel'
 
 export default function HomePage() {
   const { user } = useAuth()
@@ -24,27 +25,27 @@ export default function HomePage() {
   }
   return (
     <main className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-amber-800 to-orange-700 text-white">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+      {/* Hero Section with Carousel */}
+      <section className="relative">
+        <MuseumImageCarousel className="h-[600px] md:h-[700px]" />
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+          <div className="text-center text-white px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
               Historisches Museum Ernsthausen
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
               Entdecken Sie die faszinierende Geschichte unserer Schule und Region
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/exhibitions"
-                className="bg-white text-amber-800 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors inline-block"
+                className="bg-white text-amber-800 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors inline-block shadow-lg"
               >
                 Ausstellungen entdecken
               </Link>
               <button
                 onClick={handleEventsClick}
-                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-amber-800 transition-colors inline-block"
+                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-amber-800 transition-colors inline-block shadow-lg"
               >
                 {user ? 'Veranstaltungen buchen' : 'Anmelden & Veranstaltungen buchen'}
               </button>

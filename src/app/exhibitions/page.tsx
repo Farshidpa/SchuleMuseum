@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
+import MuseumImageCarousel from '@/components/MuseumImageCarousel'
 
 export default function ExhibitionsPage() {
   const { user } = useAuth()
@@ -114,14 +115,16 @@ export default function ExhibitionsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-amber-800 to-orange-700 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+      {/* Hero Carousel Section */}
+      <section className="relative">
+        <MuseumImageCarousel />
+        {/* Overlay content */}
+        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+          <div className="text-center text-white px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
               Unsere Ausstellungen
             </h1>
-            <p className="text-xl max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md">
               Tauchen Sie ein in die Geschichte von Ernsthausen und erleben Sie 
               faszinierende Exponate aus verschiedenen Epochen
             </p>
@@ -134,13 +137,13 @@ export default function ExhibitionsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
             <div className="flex flex-wrap gap-2">
-              <button className="px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors">
+              <button className="px-6 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors font-semibold">
                 Alle
               </button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+              <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-semibold">
                 Sonderausstellungen
               </button>
-              <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+              <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-semibold">
                 Dauerausstellungen
               </button>
             </div>
@@ -222,9 +225,10 @@ export default function ExhibitionsPage() {
                     </Link>
                     <button 
                       onClick={() => handleBookingClick(exhibition.id, 'tour')}
-                      className="flex-1 border border-amber-600 text-amber-600 text-center py-2 px-4 rounded-lg hover:bg-amber-50 transition-colors font-medium"
+                      className="flex-1 border border-amber-600 text-amber-600 flex-wrap
+                        text-center py-2 px-6 h-12 rounded-lg hover:bg-amber-50 transition-colors font-semibold"
                     >
-                      {user ? 'Führung buchen' : 'Anmelden & Führung buchen'}
+                      {user ? 'Buchen' : 'Anmelden'}
                     </button>
                   </div>
                 </div>
@@ -247,13 +251,13 @@ export default function ExhibitionsPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => handleBookingClick(0, 'tour')}
-              className="bg-amber-600 text-white px-8 py-3 rounded-lg hover:bg-amber-700 transition-colors font-semibold"
+              className="bg-amber-600 text-white px-8 py-3 rounded-lg hover:bg-amber-700 transition-colors font-semibold min-w-[200px]"
             >
               {user ? 'Führung buchen' : 'Anmelden & Führung buchen'}
             </button>
             <button
               onClick={() => handleBookingClick(0, 'group')}
-              className="border border-amber-600 text-amber-600 px-8 py-3 rounded-lg hover:bg-amber-50 transition-colors font-semibold"
+              className="border border-amber-600 text-amber-600 px-8 py-3 rounded-lg hover:bg-amber-50 transition-colors font-semibold min-w-[200px]"
             >
               {user ? 'Gruppenbesuch planen' : 'Anmelden & Gruppenbesuch planen'}
             </button>

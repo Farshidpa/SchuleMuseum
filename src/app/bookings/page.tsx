@@ -307,7 +307,7 @@ export default function UserBookings() {
                       
                       <button
                         onClick={() => openBookingDetails(booking)}
-                        className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                        className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold min-w-[140px]"
                       >
                         Details ansehen
                       </button>

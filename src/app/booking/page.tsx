@@ -599,7 +599,7 @@ export default function BookingPage() {
 
                     <button
                       type="submit"
-                      className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                      className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
                     >
                       Weiter zur Bestätigung
                     </button>
@@ -718,14 +718,14 @@ export default function BookingPage() {
                       <button
                         type="button"
                         onClick={() => setStep(1)}
-                        className="flex-1 bg-gray-200 text-gray-700 py-3 px-4 rounded-lg hover:bg-gray-300 transition-colors font-semibold"
+                        className="flex-1 bg-gray-200 text-gray-700 py-3 px-6 rounded-lg hover:bg-gray-300 transition-colors font-semibold"
                       >
                         Zurück
                       </button>
                       <button
                         type="submit"
                         disabled={isSubmitting}
-                        className={`flex-1 py-3 px-4 rounded-lg font-semibold text-white transition-colors ${
+                        className={`flex-1 py-3 px-6 rounded-lg font-semibold text-white transition-colors ${
                           isSubmitting
                             ? 'bg-gray-400 cursor-not-allowed'
                             : 'bg-green-600 hover:bg-green-700'
