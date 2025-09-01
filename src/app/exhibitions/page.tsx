@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
-import ExhibitionCarousel from '@/components/ExhibitionCarousel'
 
 export default function ExhibitionsPage() {
   const { user } = useAuth()
@@ -115,16 +114,14 @@ export default function ExhibitionsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Carousel Section */}
-      <section className="relative">
-        <ExhibitionCarousel />
-        {/* Overlay content */}
-        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-          <div className="text-center text-white px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-amber-800 to-orange-700 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Unsere Ausstellungen
             </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md">
+            <p className="text-xl max-w-3xl mx-auto">
               Tauchen Sie ein in die Geschichte von Ernsthausen und erleben Sie 
               faszinierende Exponate aus verschiedenen Epochen
             </p>
@@ -226,7 +223,7 @@ export default function ExhibitionsPage() {
                     <button 
                       onClick={() => handleBookingClick(exhibition.id, 'tour')}
                       className="flex-1 border border-amber-600 text-amber-600 flex-wrap
-                        text-center py-2 px-6 h-12 rounded-lg hover:bg-amber-50 transition-colors font-semibold"
+                        text-center py-2 px-6 h-11 rounded-lg hover:bg-amber-50 transition-colors font-semibold"
                     >
                       {user ? 'Buchen' : 'Anmelden'}
                     </button>

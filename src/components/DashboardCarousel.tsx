@@ -53,6 +53,24 @@ export default function DashboardCarousel({ className = "" }: DashboardCarouselP
       description: "Verwalten Sie Ihre persönlichen Daten und Präferenzen",
       action: "Profil bearbeiten",
       link: "/profile"
+    },
+    {
+      id: 5,
+      src: "/Museum4.jpg",
+      alt: "Profil verwalten",
+      title: "Ihr Profil",
+      description: "Verwalten Sie Ihre persönlichen Daten und Präferenzen",
+      action: "Profil bearbeiten",
+      link: "/profile"
+    },
+    {
+      id: 6,
+      src: "/Museum5.jpg",
+      alt: "Profil verwalten",
+      title: "Ihr Profil",
+      description: "Verwalten Sie Ihre persönlichen Daten und Präferenzen",
+      action: "Profil bearbeiten",
+      link: "/profile"
     }
   ]
 

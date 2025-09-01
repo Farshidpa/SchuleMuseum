@@ -44,12 +44,17 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative h-96 bg-gray-200 rounded-xl overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                <div className="text-center">
-                  <svg className="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-                  </svg>
-                  <p className="text-sm">Historisches Klassenzimmer</p>
+              <Image
+                src="/Museum4.jpg"
+                alt="Historisches Klassenzimmer im SchuleMuseum Ernsthausen"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end">
+                <div className="p-4 text-white">
+                  <p className="text-lg font-semibold drop-shadow-lg">Historisches Tepisch</p>
+                  <p className="text-sm opacity-90 drop-shadow-md"> 19. Jahrhundert</p>
                 </div>
               </div>
             </div>
@@ -181,7 +186,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Dr. Maria Schmidt
+                Dr. Farshid Parvizian
               </h3>
               <p className="text-blue-600 font-medium mb-2">Museumsleitung</p>
               <p className="text-gray-600 text-sm">
@@ -199,7 +204,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Hans Müller
+                Prof. Daniel Döbel
               </h3>
               <p className="text-blue-600 font-medium mb-2">Museumsführer</p>
               <p className="text-gray-600 text-sm">
@@ -217,7 +222,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Sarah Weber
+                Dr. Frank Behlau
               </h3>
               <p className="text-blue-600 font-medium mb-2">Museumspädagogin</p>
               <p className="text-gray-600 text-sm">

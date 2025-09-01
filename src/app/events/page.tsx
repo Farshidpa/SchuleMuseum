@@ -242,7 +242,7 @@ export default function EventsPage() {
                       <button
                         onClick={() => handleBookingClick(event.id)}
                         disabled={isFullyBooked}
-                        className={`flex-1 text-center py-2 px-4 rounded-lg font-medium transition-colors ${
+                        className={`flex-1 text-center py-2 px-4  rounded-lg font-medium transition-colors ${
                           isFullyBooked 
                             ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
                             : 'bg-blue-600 text-white hover:bg-blue-700'
