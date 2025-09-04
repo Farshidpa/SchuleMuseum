@@ -84,7 +84,7 @@ export default function LoginPage() {
         <div className="px-8 py-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-center">
           <h1 className="text-2xl font-bold">Anmelden</h1>
           <p className="mt-2 text-blue-100">
-            Willkommen zurück beim SchuleMuseum Ernsthausen
+            Willkommen zurück beim Schulmuseum Ernsthausen
           </p>
         </div>
 

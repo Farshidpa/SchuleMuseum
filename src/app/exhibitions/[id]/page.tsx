@@ -630,7 +630,7 @@ export default function ExhibitionDetailPage() {
                     <h3 className="text-lg font-bold text-gray-900 mb-4">Kontakt & Information</h3>
                     <div className="space-y-2 text-gray-600">
                       <p>📞 06458 - 123456</p>
-                      <p>✉️ info@schulemuseum-ernsthausen.de</p>
+                      <p>✉️ info@Schulmuseum-ernsthausen.de</p>
                       <p>🕒 {exhibition.details.openingHours}</p>
                     </div>
                   </div>

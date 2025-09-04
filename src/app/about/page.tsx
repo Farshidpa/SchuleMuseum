@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Über das SchuleMuseum Ernsthausen
+              Über das Schulmuseum Ernsthausen
             </h1>
             <p className="text-xl max-w-3xl mx-auto">
               Entdecken Sie die faszinierende Geschichte der Bildung in unserer Region
@@ -27,7 +27,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p className="text-lg">
-                  Das SchuleMuseum Ernsthausen bewahrt und vermittelt die Geschichte 
+                  Das Schulmuseum Ernsthausen bewahrt und vermittelt die Geschichte 
                   des Bildungswesens in unserer Region. Wir zeigen, wie sich Schule 
                   und Lernen über die Jahrhunderte entwickelt haben.
                 </p>
@@ -46,14 +46,14 @@ export default function AboutPage() {
             <div className="relative h-96 bg-gray-200 rounded-xl overflow-hidden">
               <Image
                 src="/Museum4.jpg"
-                alt="Historisches Klassenzimmer im SchuleMuseum Ernsthausen"
+                alt="Historisches Klassenzimmer im Schulmuseum Ernsthausen"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
               <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end">
                 <div className="p-4 text-white">
-                  <p className="text-lg font-semibold drop-shadow-lg">Historisches Tepisch</p>
+                  <p className="text-lg font-semibold drop-shadow-lg">Historischer Teppich</p>
                   <p className="text-sm opacity-90 drop-shadow-md"> 19. Jahrhundert</p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function AboutPage() {
                       Eröffnung des Museums
                     </h3>
                     <p className="text-gray-600">
-                      Das SchuleMuseum öffnet erstmals seine Türen in den Räumen 
+                      Das Schulmuseum öffnet erstmals seine Türen in den Räumen 
                       der ehemaligen Dorfschule. Die authentische Umgebung macht 
                       Geschichte für Besucher erlebbar.
                     </p>
@@ -153,7 +153,7 @@ export default function AboutPage() {
                       Jubiläum und Neueröffnung
                     </h3>
                     <p className="text-gray-600">
-                      Das Museum feiert sein 25-jähriges Bestehen mit einer komplett 
+                      Das Museum Ernsthausen feiert sein 25-jähriges Bestehen mit einer komplett 
                       überarbeiteten Ausstellung und neuen interaktiven Elementen. 
                       Eine neue Website und Online-Buchungssystem werden eingeführt.
                     </p>
@@ -209,7 +209,7 @@ export default function AboutPage() {
               <p className="text-blue-600 font-medium mb-2">Museumsführer</p>
               <p className="text-gray-600 text-sm">
                 Ehemaliger Lehrer und leidenschaftlicher Geschichtserzähler. 
-                Hans führt seit 20 Jahren Besucher durch das Museum und 
+                Daniel führt seit 20 Jahren Besucher durch das Museum und 
                 teilt seine Erfahrungen aus 40 Jahren Schuldienst.
               </p>
             </div>
@@ -222,9 +222,9 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Dr. Frank Behlau
+                Frank Behlau
               </h3>
-              <p className="text-blue-600 font-medium mb-2">Museumspädagogin</p>
+              <p className="text-blue-600 font-medium mb-2">Museumspädagoge</p>
               <p className="text-gray-600 text-sm">
                 Entwickelt und betreut unsere Bildungsprogramme für Schulklassen. 
                 Spezialisiert auf interaktive Lernmethoden und digitale 
@@ -307,12 +307,8 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Öffnungszeiten</h3>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Dienstag - Freitag:</span>
-                  <span>10:00 - 16:00 Uhr</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Samstag - Sonntag:</span>
-                  <span>11:00 - 17:00 Uhr</span>
+                  <span>Dienstag - Sonntag:</span>
+                  <span>10:00 - 18:00 Uhr</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Montag:</span>
@@ -326,8 +322,8 @@ export default function AboutPage() {
               <div className="space-y-2 text-gray-600">
                 <div>📍 Schulstraße 15, 36287 Ernsthausen</div>
                 <div>📞 06642 / 91 91 91</div>
-                <div>✉️ info@schulemuseum.de</div>
-                <div>🌐 www.schulemuseum-ernsthausen.de</div>
+                <div>✉️ info@Schulmuseum.de</div>
+                <div>🌐 www.Schulmuseum-ernsthausen.de</div>
               </div>
             </div>
           </div>

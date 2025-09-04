@@ -198,7 +198,7 @@ export default function BookingConfirmationPage() {
                   <h3 className="font-semibold text-green-800 mb-2">Kontakt</h3>
                   <p className="text-sm text-green-700">
                     Bei Fragen erreichen Sie uns unter 06642 / 91 91 91 oder 
-                    info@schulemuseum.de
+                    info@Schulmuseum.de
                   </p>
                 </div>
               </div>
@@ -267,7 +267,7 @@ export default function BookingConfirmationPage() {
               06642 / 91 91 91
             </a>
             <a
-              href="mailto:info@schulemuseum.de"
+              href="mailto:info@Schulmuseum.de"
               className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-white transition-colors"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
