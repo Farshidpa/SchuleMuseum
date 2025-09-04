@@ -806,7 +806,7 @@ export default function BookingPage() {
                 <h4 className="font-semibold text-gray-900 mb-2">Kontakt</h4>
                 <div className="space-y-1 text-sm text-gray-600">
                   <div>📞 06642 / 91 91 91</div>
-                  <div>✉️ info@Schulmuseum.de</div>
+                  <div>✉️ info@Museum.de</div>
                 </div>
               </div>
 

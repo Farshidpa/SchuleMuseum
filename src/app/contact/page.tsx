@@ -182,7 +182,7 @@ export default function ContactPage() {
                     Adresse
                   </h3>
                   <p className="text-gray-600">
-                    Schulmuseum Ernsthausen
+                    Museum Ernsthausen
                     <br />
                     Schulstraße 15
                     <br />
@@ -251,10 +251,10 @@ export default function ContactPage() {
                   </h3>
                   <p className="text-gray-600">
                     <a
-                      href="mailto:info@Schulmuseum.de"
+                      href="mailto:info@Museum.de"
                       className="hover:text-blue-600 transition-colors"
                     >
-                      info@Schulmuseum.de
+                      info@Museum.de
                     </a>
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
@@ -344,7 +344,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="mailto:info@Schulmuseum.de"
+                  href="mailto:info@Museum.de"
                   className="flex items-center justify-between p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center">

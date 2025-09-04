@@ -32,7 +32,7 @@ export default function HomePage() {
       {/* Hero Section with Carousel */}
       <section className="relative">
         <MuseumImageCarousel />
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex md:items-center items-start justify-center py-4 md:py-8 lg:py-0">
           <div className="text-center text-white px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
               Historisches Museum Ernsthausen

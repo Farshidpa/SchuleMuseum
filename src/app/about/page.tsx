@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Über das Schulmuseum Ernsthausen
+              Über das Museum Ernsthausen
             </h1>
             <p className="text-xl max-w-3xl mx-auto">
               Entdecken Sie die faszinierende Geschichte der Bildung in unserer
@@ -28,7 +28,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p className="text-lg">
-                  Das Schulmuseum Ernsthausen bewahrt und vermittelt die
+                  Das Museum Ernsthausen bewahrt und vermittelt die
                   Geschichte des Bildungswesens in unserer Region. Wir zeigen,
                   wie sich Schule und Lernen über die Jahrhunderte entwickelt
                   haben.
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <div className="relative h-96 bg-gray-200 rounded-xl overflow-hidden">
               <Image
                 src="/Museum4.jpg"
-                alt="Historisches Klassenzimmer im Schulmuseum Ernsthausen"
+                alt="Historisches Klassenzimmer im Museum Ernsthausen"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -114,7 +114,7 @@ export default function AboutPage() {
                       Eröffnung des Museums
                     </h3>
                     <p className="text-gray-600">
-                      Das Schulmuseum öffnet erstmals seine Türen in den Räumen
+                      Das Museum öffnet erstmals seine Türen in den Räumen
                       der ehemaligen Dorfschule. Die authentische Umgebung macht
                       Geschichte für Besucher erlebbar.
                     </p>
@@ -384,8 +384,8 @@ export default function AboutPage() {
               <div className="space-y-2 text-gray-600">
                 <div>📍 Schulstraße 15, 36287 Ernsthausen</div>
                 <div>📞 06642 / 91 91 91</div>
-                <div>✉️ info@Schulmuseum.de</div>
-                <div>🌐 www.Schulmuseum-ernsthausen.de</div>
+                <div>✉️ info@Museum.de</div>
+                <div>🌐 www.Museum-ernsthausen.de</div>
               </div>
             </div>
           </div>

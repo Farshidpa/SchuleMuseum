@@ -26,9 +26,9 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <div className="relative h-10 w-[200px]">
+              <div className="relative h-12 w-[130px]">
                 <Image
-                  src="/museum_logo_lockup.svg"
+                  src="/museum_ernsthausen_lockup_opensans_light.svg"
                   alt="Logo Museum"
                   fill
                 />
@@ -37,12 +37,12 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden xl:flex items-center space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors text-nowrap ${
                   pathname === item.href
                     ? "text-amber-600 bg-amber-50"
                     : "text-gray-700 hover:text-amber-600 hover:bg-gray-50"
@@ -262,7 +262,7 @@ export default function Navigation() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-700 hover:text-amber-600 focus:outline-none focus:text-amber-600"
@@ -296,13 +296,13 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden">
+          <div className="xl:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 rounded-lg mt-2">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors text-nowrap ${
                     pathname === item.href
                       ? "text-amber-600 bg-amber-100"
                       : "text-gray-700 hover:text-amber-600 hover:bg-white"
