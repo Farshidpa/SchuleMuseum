@@ -122,7 +122,8 @@ export default function Footer() {
             <div className="mt-4">
               <h5 className="font-semibold mb-2">Öffnungszeiten</h5>
               <div className="text-sm text-gray-300">
-                <p>Di-So: 10:00 - 18:00 Uhr</p>
+                <p>Di-Do: 10:00 - 18:00 Uhr</p>
+                <p>Fr-So: 11:00 - 17:00 Uhr</p>
                 <p>Montags geschlossen</p>
               </div>
             </div>
