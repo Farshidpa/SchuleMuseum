@@ -9,7 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Historisches Museum Ernsthausen",
-  description: "Entdecken Sie die faszinierende Geschichte unserer Schule und Region",
+  description:
+    "Entdecken Sie die faszinierende Geschichte unserer Schule und Region",
+  icons: {
+    icon: "/favicon-1.svg",
+  },
 };
 
 export default function RootLayout({

@@ -64,7 +64,7 @@ export default function MuseumImageCarousel({ className = "" }: MuseumImageCarou
 
   return (
     <div className={`w-full relative ${className}`}>
-      <Carousel 
+      <Carousel
         className="w-full"
         plugins={[
           Autoplay({
@@ -81,7 +81,7 @@ export default function MuseumImageCarousel({ className = "" }: MuseumImageCarou
             <CarouselItem key={image.id}>
               <Card className="border-0 bg-transparent">
                 <CardContent className="p-0">
-                  <div className="relative w-full h-[450px] md:h-[550px] lg:h-[600px] overflow-hidden rounded-xl">
+                  <div className="relative w-full h-[450px] md:h-[550px] lg:h-[600px] overflow-hidden">
                     <Image
                       src={image.src}
                       alt={image.alt}
@@ -107,9 +107,7 @@ export default function MuseumImageCarousel({ className = "" }: MuseumImageCarou
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-12 h-12 z-10 shadow-lg" />
-        <CarouselNext className="right-4 bg-white/90 hover:bg-white border-0 text-gray-800 w-12 h-12 z-10 shadow-lg" />
       </Carousel>
     </div>
-  )
+  );
 }

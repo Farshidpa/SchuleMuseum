@@ -13,7 +13,7 @@ export default function TermsPage() {
             </h2>
             <p className="text-gray-600 mb-4">
               Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Leistungen 
-              des SchuleMuseums Ernsthausen, insbesondere für Führungen, Workshops, 
+              des Museums Ernsthausen, insbesondere für Führungen, Workshops, 
               Veranstaltungen und sonstige Bildungsangebote.
             </p>
 
@@ -92,9 +92,9 @@ export default function TermsPage() {
             <div className="mt-12 pt-8 border-t border-gray-200">
               <p className="text-sm text-gray-500">
                 Stand: August 2024<br />
-                SchuleMuseum Ernsthausen<br />
+                Museum Ernsthausen<br />
                 Schulstraße 15, 36287 Ernsthausen<br />
-                E-Mail: info@schulemuseum.de
+                E-Mail: info@Museum.de
               </p>
             </div>
           </div>

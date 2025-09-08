@@ -22,10 +22,10 @@ export default function PrivacyPage() {
             </h2>
             <p className="text-gray-600 mb-4">
               Verantwortlich für die Datenverarbeitung ist:<br />
-              SchuleMuseum Ernsthausen<br />
+              Museum Ernsthausen<br />
               Schulstraße 15<br />
               36287 Ernsthausen<br />
-              E-Mail: info@schulemuseum.de<br />
+              E-Mail: info@Museum.de<br />
               Telefon: 06642 / 91 91 91
             </p>
 
@@ -116,7 +116,7 @@ export default function PrivacyPage() {
               Bei Fragen zum Datenschutz wenden Sie sich gerne an uns:
             </p>
             <p className="text-gray-600 mb-4">
-              E-Mail: datenschutz@schulemuseum.de<br />
+              E-Mail: datenschutz@Museum.de<br />
               Telefon: 06642 / 91 91 91
             </p>
 

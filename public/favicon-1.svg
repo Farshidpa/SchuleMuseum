@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Museum favicon — orange mosaic on teal">
+  <!-- plate -->
+  <rect x="0" y="0" width="64" height="64" rx="14" ry="14" fill="#0E3A43"></rect>
+  <!-- M clip -->
+  <clipPath id="m">
+    <path d="M14,48V16h8l10,20L42,16h8v32h-8V28L32,48L22,28v20Z"></path>
+  </clipPath>
+  <!-- simple 3-tile mosaic inside the M -->
+  <g clip-path="url(#m)">
+    <rect x="14" y="16" width="18" height="32" fill="#F4A261"></rect>         <!-- ochre -->
+    <rect x="32" y="16" width="18" height="32" fill="#E76F51"></rect>         <!-- orange -->
+    <polygon points="22,16 32,36 42,16" fill="#F4A261"></polygon>                <!-- ochre apex -->
+  </g>
+</svg>

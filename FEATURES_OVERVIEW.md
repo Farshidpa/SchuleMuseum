@@ -1,4 +1,4 @@
-# SchuleMuseum Ernsthausen - Neue Features Übersicht
+# Museum Ernsthausen - Neue Features Übersicht
 
 ## 🎯 Abgeschlossene Verbesserungen
 
